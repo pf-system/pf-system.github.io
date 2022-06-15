@@ -30,26 +30,26 @@ object PageContainer1: TPageContainer1
     UseIFrame = False
     Title = 'FP trivia - Interpreter and Library for Pointfree Programming'
     GeneratedCSSFile = 'dfm2html.css'
-    VertPosition = 977
+    VertPosition = 879
     object PageControl1: TdhPageControl
       Left = 16
-      Top = -969
+      Top = -871
       Width = 24
       Height = 24
       ActivePage = Page1
       FixedHeight = False
       object Page1: TdhPage
         Left = 8
-        Top = -977
+        Top = -879
         Width = 952
-        Height = 1736
+        Height = 1768
         AutoSizeXY = asNone
         UseIFrame = False
         object Panel1: TdhPanel
           Left = 40
           Top = 16
           Width = 856
-          Height = 1704
+          Height = 1736
           AutoSizeXY = asNone
           object Image1: TdhLink
             Left = 8
@@ -223,7 +223,7 @@ object PageContainer1: TPageContainer1
             Left = 72
             Top = 872
             Width = 664
-            Height = 296
+            Height = 320
             Style.Border.Style = cbsDotted
             Style.BackgroundColor = White
             AutoSizeXY = asNone
@@ -423,14 +423,34 @@ object PageContainer1: TPageContainer1
               Top = 256
               Width = 184
               Height = 16
-              Text = '<b>#</b> name'
+              Text = '<b>#</b> name : <i>dict</i>'
+              Style.FontSize = '14'
+              AutoSizeXY = asY
+            end
+            object Label42: TdhLabel
+              Left = 24
+              Top = 280
+              Width = 224
+              Height = 16
+              Text = 'Combined <b>aa</b> and <b>distr</b> Loop'
+              Style.FontSize = '14'
+              AutoSizeXY = asY
+            end
+            object Label43: TdhLabel
+              Left = 368
+              Top = 280
+              Width = 240
+              Height = 16
+              Text = 
+                '(<i>func</i> <b>aa0</b>) '#176' <i>list</i> <b>,</b> <i>x</i> <b>,</b' +
+                '> <i>y</i> '#10'<b>,</b> <i>z</i> <b>,</b> ... <b>,</b>'
               Style.FontSize = '14'
               AutoSizeXY = asY
             end
           end
           object Label33: TdhLabel
             Left = 72
-            Top = 1192
+            Top = 1216
             Width = 336
             Height = 16
             Text = 'Definition of names. '
@@ -439,7 +459,7 @@ object PageContainer1: TPageContainer1
           end
           object Panel5: TdhPanel
             Left = 72
-            Top = 1216
+            Top = 1240
             Width = 664
             Height = 56
             Style.Border.Style = cbsDotted
@@ -457,7 +477,7 @@ object PageContainer1: TPageContainer1
           end
           object Label35: TdhLabel
             Left = 136
-            Top = 1304
+            Top = 1328
             Width = 592
             Height = 21
             Text = '... Infix notation, objects and much more  ...'
@@ -485,7 +505,7 @@ object PageContainer1: TPageContainer1
           end
           object DirectHTML1: TdhDirectHTML
             Left = 72
-            Top = 1376
+            Top = 1400
             Width = 20
             Height = 19
             AutoSizeXY = asXY
@@ -497,7 +517,7 @@ object PageContainer1: TPageContainer1
           end
           object Link1: TdhLink
             Left = 656
-            Top = 1600
+            Top = 1648
             Width = 77
             Height = 16
             Text = 'Impressum'
@@ -527,7 +547,7 @@ object PageContainer1: TPageContainer1
           end
           object Image6: TdhLink
             Left = 72
-            Top = 1306
+            Top = 1330
             Width = 16
             Height = 16
             Text = ''
@@ -542,7 +562,7 @@ object PageContainer1: TPageContainer1
           end
           object Image7: TdhLink
             Left = 88
-            Top = 1306
+            Top = 1330
             Width = 16
             Height = 16
             Text = ''
@@ -557,7 +577,7 @@ object PageContainer1: TPageContainer1
           end
           object Image8: TdhLink
             Left = 104
-            Top = 1306
+            Top = 1330
             Width = 16
             Height = 16
             Text = ''
@@ -572,7 +592,7 @@ object PageContainer1: TPageContainer1
           end
           object Panel6: TdhPanel
             Left = 296
-            Top = 1374
+            Top = 1398
             Width = 344
             Height = 73
             Style.Border.Style = cbsDotted
@@ -631,7 +651,7 @@ object PageContainer1: TPageContainer1
           end
           object Panel7: TdhPanel
             Left = 296
-            Top = 1454
+            Top = 1478
             Width = 344
             Height = 73
             Style.Border.Style = cbsDotted
@@ -673,7 +693,7 @@ object PageContainer1: TPageContainer1
           end
           object Link4: TdhLink
             Left = 72
-            Top = 1600
+            Top = 1648
             Width = 224
             Height = 16
             Text = 'Punktfreie Programmiersprache'
@@ -689,7 +709,7 @@ object PageContainer1: TPageContainer1
           end
           object Link9: TdhLink
             Left = 424
-            Top = 1600
+            Top = 1648
             Width = 54
             Height = 16
             Text = 'Donate!'
@@ -703,11 +723,27 @@ object PageContainer1: TPageContainer1
             LinkPage = Page3
             Target = '_blank'
           end
+          object Image12: TdhLink
+            Left = 760
+            Top = 1144
+            Width = 36
+            Height = 36
+            Text = ''
+            ImageType = bitImage
+            Style.BackgroundImage.Path = 'infoimage3.PNG'
+            Style.BackgroundImage.State = isAnalyzed
+            Style.BackgroundImage.Width = 36
+            Style.BackgroundImage.Height = 36
+            AutoSizeXY = asXY
+            PreferDownStyles = True
+            Options = [loDownIfMenu, loDownIfMouseDown, loDownIfURL]
+            Link = 'http://lambda-the-ultimate.org/node/3233'
+          end
         end
       end
       object Page2: TdhPage
         Left = 8
-        Top = -977
+        Top = -879
         Width = 952
         Height = 736
         AutoSizeXY = asNone
@@ -790,7 +826,7 @@ object PageContainer1: TPageContainer1
       end
       object Page3: TdhPage
         Left = 8
-        Top = -977
+        Top = -879
         Width = 952
         Height = 912
         AutoSizeXY = asNone
